@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#inp{
+    display: block;
+    width: 250px;
+    padding: .2rem;
+    font-size: 1.2rem;
+    margin: 1.5rem;
+}
+
+#label{
+    margin-top:2.5rem;
+    font-size: 1.5rem;
+}
+
+.btns{
+    margin: 1rem;
+}
+
+#submit{
+    padding: .2rem .8rem;
+    font-size: large;
+    margin:0 0.5rem;
+}
+
+#startGame{
+    margin:0 0.5rem;
+    padding: .4rem .8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(66, 189, 230);
+    color: white;
+}
+
+
+.massages{
+    margin: 1rem;
+}
+
+#resultMsg{
+    margin-bottom:0.5rem;
+    font-size: 1.3rem;
+}
+
+#guesses{
+    font-size: 1.3rem;
+}
