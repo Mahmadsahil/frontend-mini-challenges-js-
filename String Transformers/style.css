@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    font-size: 2rem;
+    margin: 1.5rem;
+}
+
+.userInp{
+    text-align: center;
+    width: 100%;
+    margin: 1rem;
+}
+
+#inp{
+    color: rgb(41, 41, 41);
+    font-size: 1.2rem;
+    padding:.5rem;
+    width: 50%;
+}
+
+.transformers{
+    width: 90%;
+    text-align: left;
+    margin: auto;
+}
+
+.transformers div{
+    font-size: 1.2rem;
+    margin: 1.5rem 0rem;
+    padding: 1rem;
+    background-color: beige;
+    position: relative;
+}
+
+.transformers label{
+    font-size: .88rem;
+    background-color: black;
+    color: white;
+    padding: .25rem;
+    position: absolute;
+    top: -0.78rem;
+    left: 1rem;
+}
+
+.transformers span{
+    word-break: break-all;
+}
+
+@media (min-width: 768px) {
+    #inp,
+    .transformers {
+      width: 75%;
+    }
+  }
