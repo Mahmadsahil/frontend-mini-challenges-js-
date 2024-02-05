@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dark{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.light{
+    color: black;
+    background-color: white;
+}
+
+.darkMode{
+    margin: 1rem;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+
+}
+
+.main h1{
+    margin:0rem 2rem;
+}
+
+.innerCont{
+    padding: 3rem;
+    border: 1px solid blue;
+    width: 80%;
+    margin-left: 4rem;
+}
+
+.innerCont h1{
+    margin: 0;  
+}
